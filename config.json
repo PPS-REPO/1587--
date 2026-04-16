@@ -161,5 +161,6 @@
     "versions": {
         "config": 1,
         "repository": 1
-    }
+    },
+    "deploy_uuid": "93aabb3a-fb0f-4b86-8b0e-b735f8a4ada0"
 }
