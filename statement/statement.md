@@ -1,18 +1,16 @@
-# Problem
-In Geometry Dash, an NLW (Non-Listworthy) level is a level that has never ranked in the top $m$ since its release.
-For example, if $m=3$ and the map difficulty levels (in order of release) are 100, 200, 300, 89, 350, 120, 400, and 299, then the NLW levels are those with difficulty levels 89, 120, and 299.
-To explain in detail:
-1. A level with difficulty 100 is released. The current level list is [100] (in order of difficulty).
-2. Levels with difficulties 200 and 300 are released. The level list is [300, 200, 100]. Since these three levels have each placed in the top 3 at least once, they are not NLW levels.
-3. A level with a difficulty of 89 is released. The level list is [300, 200, 100, 89].
+# 문제
+Geometry Dash에서 NLW(Non-Listworthy) 맵이란 출시된 후 단 한 번도 $m$위 안에 든 적이 없는 맵을 말한다.
+예를 들어 $m=3$이고 맵의 난이도가 (출시된 순서대로) 100, 200, 300, 89, 350, 120, 400, 299라면 NLW 맵은 난이도가 89, 120, 299인 맵이다.
+자세히 설명하자면
+1. 난이도 100인 맵이 출시된다. 현재 맵 리스트는 (난이도 순서대로) [100]이다.
+2. 난이도 200, 300인 맵이 출시된다. 맵 리스트는 [300, 200, 100]이다. 이 3개의 맵은 3위 안에 한 번이라도 든 적이 있기 때문에 NLW 맵이 아니다.
+3. 난이도 89인 맵이 출시된다. 맵 리스트는 [300, 200, 100, 89]이다.
 ...
-4. A level with a difficulty of 299 is released. The map list is [400, 350, 300, 299, 200, 120, 100, 89].
-By the time the map list is complete, the levels that have never ranked in the top 3 (NLW levels) are those with difficulty levels 89, 120, and 299. Therefore, you should output 3.
-# Input
-The first line contains $n$ and $m$. The second line contains the difficulty levels of $n$ Geometry Dash levels in the order they were released. The difficulty of each level is a natural number less than or equal to $10^9$. No two levels have the same difficulty.
+4. 난이도 299인 맵이 출시된다. 맵 리스트는 [400, 350, 300, 299, 200, 120, 100, 89]이다.
+여기까지 맵 리스트를 채우는 동안 단 한 번도 3위 안에 든 적이 없는 맵(NLW 맵)은 난이도가 89, 120, 299인 맵이다. 따라서 3을 출력하면 된다.
+# 입력
+첫 번째 줄에 $n$과 $m$이 입력된다. 두 번째 줄에는 $n$개의 Geometry Dash 맵의 난이도가 출시된 시간 순서대로 입력된다. 맵의 난이도는 $10^9$ 이하의 자연수이다. 어떤 두 맵도 난이도가 같지 않다.
 * $1 \le m \le n$
 * $1 \le n \le 300000$
-# Output
-Output the number of NLW levels on the first line.
-
-Translated with DeepL.com (free version)
+# 출력
+첫 번째 줄에 NLW 맵의 개수를 출력한다.
