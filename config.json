@@ -113,6 +113,48 @@
             "description": "",
             "is_example": false,
             "only_deploy": false
+        },
+        {
+            "script": "random_py",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
         }
     ],
     "manual_example": [],
