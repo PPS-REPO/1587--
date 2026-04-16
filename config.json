@@ -7,7 +7,7 @@
     "validator_language": "cpp11",
     "interactor": "",
     "interactor_language": "",
-    "subtask": false,
+    "subtask": true,
     "limits": {
         "time": 2000,
         "memory": 268435456,
