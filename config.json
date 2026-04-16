@@ -42,7 +42,7 @@
         },
         {
             "name": "solution_heuristic.cc",
-            "language": "cpp11",
+            "language": "cpp17",
             "type": "AC/WA"
         }
     ],
