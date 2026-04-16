@@ -33,7 +33,7 @@
         {
             "name": "solution_wa.cc",
             "language": "cpp17",
-            "type": "WA"
+            "type": "TLE"
         },
         {
             "name": "solution.py",
