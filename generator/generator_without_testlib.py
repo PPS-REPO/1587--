@@ -1,19 +1,11 @@
 import sys
-import random
-import hashlib
+
 
 from random import randint as rnd
+from random import sample
 
-# Fixed Random Seed
-hashValue = hashlib.sha256("|".join(sys.argv[1:]).encode()).hexdigest()
-random.seed(hashValue)
-
-al = int(sys.argv[1])
-ar = int(sys.argv[2])
-bl = int(sys.argv[3])
-br = int(sys.argv[4])
-
-a = rnd(al, ar)
-b = rnd(bl, br)
-
-print(a, b)
+n=rnd(1,300000)
+m=rnd(1,n)
+print(n,m)
+l=sample(range(1,10**9+1),n)
+print(*l)
